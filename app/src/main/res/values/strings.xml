@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application3</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="home">Home</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="string_add" />
+    <string name="communication">communication</string>
+    <string name="string_communication">communication</string>
+    <string name="share">Share</string>
+    <string name="string_share">share</string>
+    <string name="settings">Settings</string>
+</resources>

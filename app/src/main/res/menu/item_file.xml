@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+        <item android:id="@+id/delete"
+            android:icon="@drawable/ic_delete"
+            android:title="@string/delete"/>
+        <item android:id="@+id/save"
+            android:icon="@drawable/ic_save"
+            android:title="@string/save"/>
+        <item android:id="@+id/add"
+            android:icon="@drawable/ic_add"
+            android:title="add"/>
+
+
+        <item android:title="@string/string_communication">
+            <menu>
+                <item android:id="@+id/share"
+                    android:icon="@drawable/ic_share"
+                    android:title="@string/string_share"/>
+                <item android:id="@+id/setting"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/settings"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>
